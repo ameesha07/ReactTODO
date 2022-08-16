@@ -12,13 +12,13 @@ code {
     monospace;
 }
 
-.main{
+.main {
   margin: 0 auto;
   max-width: 500px;
-  
+
 }
 
-.content{
+.content {
   border: 5px rgb(2, 31, 55) solid;
   border-radius: 5px;
   font-size: 20px;
@@ -26,59 +26,68 @@ code {
   padding: 20px;
 }
 
-table{
+table {
   width: 100%;
 }
-td:first-child{
+
+td:first-child {
   width: 100%;
 }
-td:last-child{
+
+td:last-child {
   min-width: 125px;
 }
-th{
+
+th {
   text-align: left;
 }
-tr:nth-child(even){
+
+tr:nth-child(even) {
   background-color: white;
 }
-input, button{
+
+input,
+button {
   font-size: 20px;
   padding: 5px;
   border-radius: 5px;
   border: 2px #c0c0c0 solid;
 }
 
-button{
+button {
   cursor: pointer;
 }
 
-button.add{
+button.add {
   background-color: #0080ff;
   color: white;
 }
 
-button.edit{
+button.edit {
   background-color: #20a0b0;
   color: white;
 }
 
-button.save{
+button.save {
   background-color: #30b040;
   color: white;
 }
-button.delete{
+
+button.delete {
   background-color: #e04040;
   color: white;
 }
 
-button.back{
+button.back {
   background-color: #707080;
   color: white;
 }
+
 .task {
   cursor: pointer;
 }
-.complete{
+
+.complete {
   text-decoration: line-through;
 
 }
